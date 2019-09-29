@@ -1,0 +1,113 @@
+/* Variables */
+:root {
+    --font-family-text: 'Open Sans', sans-serif;
+}
+
+/* Body */
+body {
+    font-family: var(--font-family-text);
+}
+
+p {
+    margin-top: 0;  
+    line-height: 1.5; 
+}
+
+.intro {
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 900px) {
+    .intro {
+        font-size: 20px;
+    }
+}
+
+/* Carousel */
+.carousel-item {
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+    font-size: 35px;
+    line-height: 1.3;
+}
+
+@media screen and (max-width: 900px) {
+    .carousel-item {
+        font-size: 25px;
+    }
+}
+
+/* Form */
+.form-control,
+.form-control:hover,
+.form-control:active,
+.form-control:visited,
+.form-control:focus {
+    border: 0;
+    box-shadow: none;
+}
+
+.form-check {
+    padding-left: 45px;
+}
+
+.form-check-input {
+    margin-left: -45px;
+}
+
+.form-check-label {
+    font-size: 14px;
+}
+
+input[type="checkbox"] {
+    height: 30px;
+    width: 30px;
+    border-color: #e6007e;
+}
+
+input[type="text"],
+input[type="text"]:hover,
+input[type="text"]:active,
+input[type="text"]:visited,
+input[type="text"]:focus {
+    border-bottom: solid 1px #313131;
+    border-radius: 0;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #e6007e;
+    border-color: #e6007e;
+    border-radius: 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 45%;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 900px) {
+    .btn-primary,
+    .btn-primary:hover,
+    .btn-primary:active,
+    .btn-primary:visited,
+    .btn-primary:focus {
+       width: 100%;;
+    }
+}
+
+/* Icons */
+.bg-icons {
+    background-color: #2a697b;
+}
+
+/* Footer */
+.section-footer {
+    height: 50px;
+    font-family: var(--font-family-text);
+    background-color: #313131;
+}
